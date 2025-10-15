@@ -1,0 +1,137 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 50px;
+  border-bottom: 1px solid #ddd;
+}
+
+header img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+header section {
+  text-align: right;
+  font-size: 0.9rem;
+}
+
+header section a {
+  text-decoration: none;
+  color: #006d3c;
+  font-weight: bold;
+}
+
+/* ===== BANNER ===== */
+main article {
+  text-align: center;
+  background: linear-gradient(to bottom right, #e9f5f1, #ffffff);
+  padding: 50px 20px;
+  margin: 30px auto;
+  max-width: 900px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+main article header h2 {
+  font-size: 2rem;
+  color: #006d3c;
+  margin-bottom: 10px;
+}
+
+main article section p {
+  margin: 5px 0;
+}
+
+figure {
+  margin: 20px auto;
+}
+
+figure img {
+  width: 180px;
+  height: auto;
+  border-radius: 10px;
+}
+
+figure figcaption {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #004c2f;
+}
+
+/* ===== INFO KOMPETISI ===== */
+main article section strong {
+  color: #00803b;
+  font-size: 1.1rem;
+}
+
+main article section {
+  background-color: #f1fff7;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+/* ===== ASIDE (Fitur) ===== */
+aside {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px auto;
+  flex-wrap: wrap;
+}
+
+aside section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+aside h3 {
+  color: #006d3c;
+  margin-bottom: 5px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  background-color: #004c2f;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 5px 0;
+}

@@ -1,0 +1,187 @@
+.flag {
+  width: 400px;
+  height: 250px;
+  background-color: black;
+  display: flex;
+  border: 1px solid;
+  flex-direction: column;
+}
+
+.back_atas {
+  background-color: white;
+  height: 50%;
+  width: 100%;
+}
+
+.back_bawah {
+  background-color: red;
+  height: 50%;
+  width: 100%;
+}
+
+.circle_atas {
+  background-color: red;
+  height: 50px;
+  width: 100px;
+  border: 1px solid;
+  position: absolute;
+  left: 60;
+  top: 82;
+  border-radius: 100px 100px 0px 0px;
+}
+
+.circle_bawah {
+  background-color: white;
+  height: 50px;
+  width: 100px;
+  border: 1px solid;
+  position: absolute;
+  left: 60;
+  top: 133;
+  border-radius: 0px 0px 100px 100px;
+}
+
+.georgia {
+  position: relative;
+  width: 300px;
+  height: 180px;
+  background: white;
+  border: 1px solid #ccc;
+}
+
+/* Palang besar tengah */
+.kotak1 {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: red;
+}
+.kotak2 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  background: red;
+  transform: translateX(-50%);
+}
+
+/* Salib kecil kiri atas & kanan atas */
+.kotak3,
+.kotak4,
+.kotak5,
+.kotak6 {
+  position: absolute;
+  background: red;
+}
+
+/* Kiri atas */
+.kotak3 {
+  top: 30px;
+  left: 35px;
+  width: 12px;
+  height: 40px;
+}
+.kotak4 {
+  top: 44px;
+  left: 21px;
+  width: 40px;
+  height: 12px;
+}
+
+/* Kanan atas */
+.kotak5 {
+  top: 30px;
+  right: 35px;
+  width: 12px;
+  height: 40px;
+}
+.kotak6 {
+  top: 44px;
+  right: 21px;
+  width: 40px;
+  height: 12px;
+}
+
+/* Salib kecil kiri bawah & kanan bawah */
+.kotak7,
+.kotak8,
+.kotak9,
+.kotak10 {
+  position: absolute;
+  background: red;
+}
+
+/* Kiri bawah */
+.kotak7 {
+  bottom: 30px;
+  left: 35px;
+  width: 12px;
+  height: 40px;
+}
+.kotak8 {
+  bottom: 44px;
+  left: 21px;
+  width: 40px;
+  height: 12px;
+}
+
+/* Kanan bawah */
+.kotak9 {
+  bottom: 30px;
+  right: 35px;
+  width: 12px;
+  height: 40px;
+}
+.kotak10 {
+  bottom: 44px;
+  right: 21px;
+  width: 40px;
+  height: 12px;
+}
+
+.poland {
+  width: 400px;
+  height: 250px;
+  background-color: black;
+  display: flex;
+  border: 1px solid;
+  flex-direction: column;
+}
+
+.atas {
+  background-color: white;
+  height: 50%;
+  width: 100%;
+}
+
+.bawah {
+  background-color: red;
+  height: 50%;
+  width: 100%;
+}
+
+.netherland {
+  width: 300px;
+  height: 180px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.netherland1 {
+  flex: 1;
+  background: #ae1c28;
+}
+
+.netherland2 {
+  flex: 1;
+  background: white;
+}
+
+.netherland3 {
+  flex: 1;
+  background: #21468b;
+}
